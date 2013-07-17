@@ -7,4 +7,4 @@ delete original file and copy over mine;
 clear data for contactsprover and facebook and reboot     
     
 sign back into facebook and enable sync functions and all should be good    
-if you also want calandar sync for facebook events; install haxsync and haxsync jb workaround
+if you also want calendar sync for facebook events; install haxsync and haxsync jb workaround
