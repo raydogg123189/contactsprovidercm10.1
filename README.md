@@ -1,6 +1,7 @@
     Modded ContactsProvider.apk for CM10.1
     *Adds Facebook sync functions
-    File came from stable build for Sprint Samsung Galaxy S3 (D2SPR)... try on your device at your own risk
+    APK File came from stable build for Sprint Samsung Galaxy S3 (D2SPR)...
+    Try on your device at your own RISK
     
     Instructions:
     Using root explorer or android commander, delete original file and copy over mine.
