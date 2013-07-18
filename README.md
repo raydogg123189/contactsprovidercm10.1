@@ -11,4 +11,17 @@ sqlite3 /data/data/com.android.providers.contacts/databases/contacts2.db 'ALTER 
 
     
 reboot again and then sign back into facebook and enable sync functions and all should be good    
-if you also want calendar sync for facebook events; install haxsync and haxsync jb workaround
+if you also want calendar sync for facebook events; install haxsync and haxsync jb workaround       
+
+
+if you would like to apply this patch to your ContactProvider.apk follow these steps below: 
+decompile the apk using either apktools, apkmultitools, or smali. navigate to "/ContactsProvider.apk/res/value/"    
+in the folder used to decompile. create a new file in that folder called  "arrays.xml"      
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="unrestricted_packages">
+        <item>com.facebook.katana</item>
+    </string-array>
+</resources>
