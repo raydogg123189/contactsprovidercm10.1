@@ -17,7 +17,8 @@ Navigate to "/ContactsProvider.apk/res/value/" it will be within the folder used
 
 or you can create that file your self with this code:
 
-```<?xml version="1.0" encoding="UTF-8"?><resources><string-array name="unrestricted_packages"><item>com.facebook.katana</item></string-array></resources>```
+```<?xml version="1.0" encoding="UTF-8"?><resources>
+<string-array name="unrestricted_packages"><item>com.facebook.katana</item></string-array></resources>```
 
 
 Save the file. Recompile the apk. Then follow the other instructions above about the final steps.
