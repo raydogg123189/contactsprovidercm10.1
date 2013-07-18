@@ -16,14 +16,6 @@ If you also want calendar sync for facebook events; install haxsync and haxsync 
 
 If you would like to apply this patch to your ContactProvider.apk follow these steps below: 
 decompile the apk using either apktools, apkmultitools, or smali. navigate to "/ContactsProvider.apk/res/value/"    
-in the folder used to decompile. create a new file in that folder called  "arrays.xml"
-
-<tt><?xml version="1.0" encoding="UTF-8"?>
-<resources>
-    <string-array name="unrestricted_packages">
-        <item>com.facebook.katana</item>
-    </string-array>
-</resources></tt>		
-
+in the folder used to decompile, and move the included "arrays.xml" file into that folder.      
 Save the file. Recompile the apk. Then follow the other instructions above about the final steps.
 
