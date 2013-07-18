@@ -18,12 +18,12 @@ If you would like to apply this patch to your ContactProvider.apk follow these s
 decompile the apk using either apktools, apkmultitools, or smali. navigate to "/ContactsProvider.apk/res/value/"    
 in the folder used to decompile. create a new file in that folder called  "arrays.xml"
 
-<?xml version="1.0" encoding="UTF-8"?>
+<code><?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string-array name="unrestricted_packages">
         <item>com.facebook.katana</item>
     </string-array>
-</resources>		
+</resources></code>		
 
 Save the file. Recompile the apk. Then follow the other instructions above about the final steps.
 
