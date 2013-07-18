@@ -14,4 +14,16 @@ Reboot again, sign back into facebook, and then enable sync functions and all sh
 If you would like to apply this patch to your ContactProvider.apk; follow these steps below:
 Decompile the apk using either apktools, apkmultitools, or smali.
 Navigate to "/ContactsProvider.apk/res/value/" it will be within the folder used to decompile, and then move the included "arrays.xml" file into that folder.      
+
+or you can create that file your self with this code:
+'''
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="unrestricted_packages">
+        <item>com.facebook.katana</item>
+    </string-array>
+</resources>
+'''
+
+
 Save the file. Recompile the apk. Then follow the other instructions above about the final steps.
