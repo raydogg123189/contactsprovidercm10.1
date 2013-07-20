@@ -15,6 +15,6 @@
     
     If you would like to apply this patch to your ContactProvider.apk; follow these steps below:
     Decompile the apk using either apktools, apkmultitools, or smali.
-    Navigate to "/ContactsProvider.apk/res/value/" it will be within the folder used to decompile, and then move the included "arrays.xml" file into that folder.
+    Navigate to "/ContactsProvider.apk/res/values/" it will be within the folder used to decompile, and then move the included "arrays.xml" file into that folder.
     
     Save the file. Recompile the apk. Then follow the other instructions above about the final steps.
